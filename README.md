@@ -7,6 +7,19 @@ catalog-based property pre-population so intermediate `readonly property`
 layers in QML reactively update when D-Bus `GetAll` / `PropertiesChanged`
 arrive.
 
+## Install
+
+```bash
+git clone https://github.com/alexindigo/aur-qt6-dbusqml-reactive.git
+cd aur-qt6-dbusqml-reactive && makepkg -si
+```
+
+When AUR is available, install via your AUR helper:
+
+```bash
+yay -S qt6-dbusqml-reactive
+```
+
 ## Contents
 
 - `PKGBUILD` — Arch Linux package build script.
