@@ -13,6 +13,6 @@ pkgbase = qt6-dbusqml-reactive
 	conflicts = qt6-dbusqml
 	conflicts = qt6-dbusqml-git
 	source = qt6-dbusqml-reactive-0.2.5.tar.gz::https://github.com/alexindigo/dbusqml/archive/refs/tags/v0.2.5.tar.gz
-	sha256sums = 625afe862593253dac92d3a93cf0a84bb0535378ecf02abae0992dc09e148965
+	sha256sums = 9d370b084d65f8261fb4088fc2fdeee1cb26bb63a6887336e66399181a2dbad7
 
 pkgname = qt6-dbusqml-reactive

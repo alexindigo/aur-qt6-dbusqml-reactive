@@ -13,7 +13,7 @@ makedepends=('cmake')
 provides=("qt6-dbusqml=${pkgver}")
 conflicts=('qt6-dbusqml' 'qt6-dbusqml-git')
 source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/v${pkgver}.tar.gz")
-sha256sums=('625afe862593253dac92d3a93cf0a84bb0535378ecf02abae0992dc09e148965')
+sha256sums=('9d370b084d65f8261fb4088fc2fdeee1cb26bb63a6887336e66399181a2dbad7')
 
 build() {
     cmake -B build -S "${srcdir}/${_projname}-${pkgver}" \
