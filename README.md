@@ -1,5 +1,10 @@
 # qt6-dbusqml-reactive
 
+> **DEPRECATED** — As of dbusqml v0.3.0, reactive bindings are always enabled.
+> The `DBUSQML_REACTIVE_BINDINGS` flag no longer exists. Use
+> [`qt6-dbusqml`](https://github.com/alexindigo/aur-qt6-dbusqml) instead —
+> it provides the same behavior out of the box.
+
 AUR package for [dbusqml](https://github.com/alexindigo/dbusqml) — a standalone D-Bus binding for QML (Qt6, no KDE dependencies). Tracks tagged releases, built with `-DDBUSQML_REACTIVE_BINDINGS=ON`.
 
 Differs from `qt6-dbusqml` only in the cmake flag: this package enables
